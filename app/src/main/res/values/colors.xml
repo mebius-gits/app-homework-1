@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base colors -->
+    <color name="primary">#2196F3</color>  <!-- Primary Blue -->
+    <color name="primary_dark">#1976D2</color> <!-- Dark Blue -->
+    <color name="primary_dark_darker">#1565C0</color> <!-- Darker Blue -->
+    <color name="primary_light">#64B5F6</color> <!-- Light Blue -->
+    <color name="accent">#03A9F4</color>  <!-- Accent Blue -->
+    <color name="accent_dark">#0288D1</color> <!-- Darker Accent Blue -->
+
+    <!-- Text colors -->
+    <color name="text_color">#212121</color>  <!-- Almost Black -->
+    <color name="text_color_secondary">#757575</color>  <!-- Grey -->
+    <color name="white">#FFFFFF</color>
+    <color name="text_color_darker">#000000</color> <!-- Darker Text Color -->
+
+    <!-- Background colors -->
+    <color name="background_color">#E3F2FD</color>  <!-- Light Blue Background -->
+    <color name="background_dark">#90CAF9</color> <!-- Darker Blue Background -->
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Result colors -->
+    <color name="win">#4CAF50</color>  <!-- Green -->
+    <color name="win_dark">#388E3C</color> <!-- Darker Green -->
+    <color name="lose">#F44336</color>  <!-- Red -->
+    <color name="lose_dark">#D32F2F</color> <!-- Darker Red -->
+    <color name="draw">#FFC107</color>  <!-- Amber -->
+    <color name="draw_dark">#FF9800</color> <!-- Darker Amber -->
+</resources>
