@@ -142,6 +142,7 @@
                 android:layout_marginTop="8dp"
                 app:cardCornerRadius="60dp"
                 app:cardElevation="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/resultText"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/playerLabel">
@@ -166,12 +167,13 @@
                 app:cardElevation="4dp"
                 app:layout_constraintBottom_toTopOf="@+id/computerLabel"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/resultText">
 
                 <ImageView
                     android:id="@+id/imageView2"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="123dp"
                     android:padding="16dp"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/question" />
@@ -227,7 +229,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="395dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingTop="16dp"
             android:paddingBottom="16dp">
@@ -238,7 +240,7 @@
                 android:layout_height="wrap_content"
                 android:text="Choose Your Weapon"
                 android:textColor="@color/primary"
-                android:textSize="18sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -246,7 +248,7 @@
 
             <LinearLayout
                 android:id="@+id/choiceButtonsLayout"
-                android:layout_width="436dp"
+                android:layout_width="0dp"
                 android:layout_height="88dp"
                 android:layout_marginTop="16dp"
                 android:gravity="center"
@@ -327,12 +329,14 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="24dp"
                 android:backgroundTint="@color/primary"
+                android:gravity="center"
                 android:text="PLAY"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:cornerRadius="24dp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/choiceButtonsLayout" />
         </androidx.constraintlayout.widget.ConstraintLayout>

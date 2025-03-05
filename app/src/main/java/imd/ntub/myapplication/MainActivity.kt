@@ -83,6 +83,7 @@ class MainActivity : AppCompatActivity() {
     private fun selectChoice(choice: Int) {
         playerChoice = choice
 
+
         // Update player image based on selection
         val resourceId = when (choice) {
             ROCK -> R.drawable.stone
@@ -91,6 +92,7 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.question
         }
 
+        playerImageView.rotation = 180f;
         playerImageView.setImageResource(resourceId)
 
         // Apply selection animation
